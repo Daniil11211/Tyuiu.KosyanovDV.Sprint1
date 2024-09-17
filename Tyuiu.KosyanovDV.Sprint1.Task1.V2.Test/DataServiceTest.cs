@@ -15,7 +15,7 @@ namespace Tyuiu.KosyanovDV.Sprint1.Task1.V2.Test
             double x = 1.0;
             double y = 3.0;
             var res = ds.Calculate(x, y);
-            Assert.AreEqual (0.5, res);
+            Assert.AreEqual(0.5, res);
 
         }
     }

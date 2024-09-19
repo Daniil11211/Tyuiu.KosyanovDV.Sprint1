@@ -12,7 +12,7 @@ namespace Tyuiu.KosyanovDV.Sprint1.Task5.V4.Lib
     {
         public int SecondsToHours(int time)
         {
-            return Convert.ToInt32(time/3600);
+            return Convert.ToInt32(time / 3600);
         }
     }
 }

@@ -4,9 +4,9 @@ using System.Text;
 using System.Linq;
 using System.Threading.Tasks;
 
-using Tyuiu.KosyanovDV.Sprint1.Task5.V4.Lib;
+using Tuyiu.KosyanovDV.Sprint1.Task6.V2.Lib;
 
-namespace Tyuiu.KosyanovDV.Sprint1.Task5.V4
+namespace Tyuiu.KosyanovDV.Sprint1.Task6.V2
 {
     class Program
     {
@@ -22,22 +22,21 @@ namespace Tyuiu.KosyanovDV.Sprint1.Task5.V4
             Console.WriteLine("* Выполнил: Косьянов Даниил Васильевич | ПКТб-24-1                        *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Написать программу, которая решает следующую задачу:                    *");
-            Console.WriteLine("* Идет k-я секунда суток.                                                 *");
-            Console.WriteLine("* Определить, сколько полных часов (h) прошло к этому моменту             *");
+            Console.WriteLine("* Написать программу: пользователь вводит текст.                          *");
+            Console.WriteLine("* Проверить, есть и в строке слово Hello.                                 *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            int x;
+            string stroke;
 
-            Console.Write($"* Введите количество секунд: ");
-            x = Convert.ToInt32(Console.ReadLine());
+            Console.Write($"* Введите строку: ");
+            stroke = Console.ReadLine();
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine($"* Прошло {ds.SecondsToHours(x)} час(-ов)                                                       *");
+            Console.WriteLine($"* {ds.CheckHello(stroke)}                                                                   *");
             Console.WriteLine("***************************************************************************");
             Console.ReadKey();
         }

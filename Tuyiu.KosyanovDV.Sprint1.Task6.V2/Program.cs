@@ -4,9 +4,9 @@ using System.Text;
 using System.Linq;
 using System.Threading.Tasks;
 
-using Tyuiu.KosyanovDV.Sprint1.Task5.V4.Lib;
+using Tuyiu.KosyanovDV.Sprint1.Task6.V2.Lib;
 
-namespace Tyuiu.KosyanovDV.Sprint1.Task5.V4
+namespace Tuyiu.KosyanovDV.Sprint1.Task6.V2
 {
     class Program
     {
@@ -16,28 +16,25 @@ namespace Tyuiu.KosyanovDV.Sprint1.Task5.V4
             Console.Title = "Спринт #1 | Выполнил: Косьянов Д. В. | ПКТб-24-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Преобразование типов и класс Convert                              *");
+            Console.WriteLine("* Тема: Работа со строками класс String                                   *");
             Console.WriteLine("* Задание #5                                                              *");
-            Console.WriteLine("* Вариант #4                                                              *");
+            Console.WriteLine("* Вариант #2                                                              *");
             Console.WriteLine("* Выполнил: Косьянов Даниил Васильевич | ПКТб-24-1                        *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Написать программу, которая решает следующую задачу:                    *");
-            Console.WriteLine("* Идет k-я секунда суток.                                                 *");
-            Console.WriteLine("* Определить, сколько полных часов (h) прошло к этому моменту             *");
+            Console.WriteLine("* Написать программу: пользователь вводит текст.                          *");
+            Console.WriteLine("* Проверить, есть и в строке слово Hello.                                 *");
+            Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-
-            int x;
-
-            Console.Write($"* Введите количество секунд: ");
-            x = Convert.ToInt32(Console.ReadLine());
-
+            Console.WriteLine("* Введите строку:                                                         *");
+            string stroke;
+            stroke = Console.ReadLine();
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine($"* Прошло {ds.SecondsToHours(x)} час(-ов)                                                       *");
+            Console.WriteLine(ds.CheckHello(stroke));
             Console.WriteLine("***************************************************************************");
             Console.ReadKey();
         }

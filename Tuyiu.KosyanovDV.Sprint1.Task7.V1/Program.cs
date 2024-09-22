@@ -53,7 +53,7 @@ namespace Tuyiu.KosyanovDV.Sprint1.Task7.V1
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine($"* {ds.Calculate(x,y,z)}                                                   ");
+            Console.WriteLine($"* {ds.Calculate(x, y, z)}                                                   ");
             Console.WriteLine("***************************************************************************");
             Console.ReadKey();
         }

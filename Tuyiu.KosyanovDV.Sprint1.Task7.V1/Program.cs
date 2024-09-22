@@ -32,24 +32,24 @@ namespace Tuyiu.KosyanovDV.Sprint1.Task7.V1
             Console.WriteLine("* z = ----------------  - a^3*c+b^(-2)                                    *");
             Console.WriteLine("*           2*a                                                           *");
             Console.WriteLine("***************************************************************************");
-            
-            
+
+
             Console.Write("* Введите значение a: ");
             double x;
             x = Convert.ToDouble(Console.ReadLine());
-            
-            
-            
+
+
+
             Console.Write("* Введите значение b: ");
             double y;
             y = Convert.ToDouble(Console.ReadLine());
-            
-            
+
+
             Console.Write("* Введите значение c: ");
             double z;
             z = Convert.ToDouble(Console.ReadLine());
-            
-            
+
+
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
